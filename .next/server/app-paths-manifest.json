@@ -1,0 +1,7 @@
+{
+  "/posts/page": "app/posts/page.js",
+  "/posts/onePost/[postId]/page": "app/posts/onePost/[postId]/page.js",
+  "/uploadPost/page": "app/uploadPost/page.js",
+  "/posts/user/[userId]/page": "app/posts/user/[userId]/page.js",
+  "/profile/[userId]/page": "app/profile/[userId]/page.js"
+}
