@@ -106,6 +106,7 @@ const Page = ({ params }: { params: Promise<{ userId: string }> }) => {
                   alt={"Description"}
                   width={500}
                   height={500}
+                  priority={true}
                 />
               </Link>
             );

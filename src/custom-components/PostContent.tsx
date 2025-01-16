@@ -23,7 +23,7 @@ export const PostContent = ({
             {" "}
             {post?.postImg ? (
               <Image
-                src={postImage}
+                src={postImage as string}
                 alt="Post Image"
                 priority={true}
                 width={500}
