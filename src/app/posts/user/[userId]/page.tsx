@@ -31,7 +31,7 @@ const Page = ({ params }: { params: Promise<{ userId: string }> }) => {
   const getUserData = useCallback(async () => {
     const token = localStorage.getItem("accessToken");
     const jsonData = await fetch(
-      `https://instagram-backend-e3eq.onrender.com/user/${userId}`,
+      `https://instagram-backend-e3eq.onrender.com/user/oneUser/${userId}`,
       {
         headers: {
           Authorization: `Bearer ${token}`,

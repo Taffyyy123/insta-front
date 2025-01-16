@@ -1,5 +1,6 @@
 "use client";
 import { Card } from "@/components/ui/card";
+import BottomNav from "@/custom-components/BottomNav";
 import { PostContent } from "@/custom-components/PostContent";
 import { PostFooter } from "@/custom-components/PostFooter";
 import { PostHeader } from "@/custom-components/PostHeader";
@@ -54,7 +55,7 @@ const Page = ({ params }: { params: Promise<{ postId: string }> }) => {
   return (
     <Card
       key={post?._id}
-      className="w-fit bg-black border-gray-700 border-r-0 border-l-0 rounded-none h-fit"
+      className="w-fit bg-black border-gray-700 border-r-0 border-l-0 rounded-none h-screen"
     >
       <PostHeader
         proImage={post?.userId.proImg}
@@ -69,6 +70,7 @@ const Page = ({ params }: { params: Promise<{ postId: string }> }) => {
         postCaption={post?.caption}
         username={post?.userId.username}
       />
+      <BottomNav />
     </Card>
   );
 };

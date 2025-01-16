@@ -29,7 +29,7 @@ const IsLiked = ({
   likedUsers,
   postId,
 }: {
-  token: string | undefined;
+  token: string | null;
   likedUsers: likeType[] | undefined;
   postId: string | undefined;
 }) => {
