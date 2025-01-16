@@ -5,13 +5,14 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
+import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import Image from "next/image";
 
 export const PostContent = ({
   postImage,
   post,
 }: {
-  postImage: string | undefined;
+  postImage: string | StaticImport;
   post: postType | undefined;
 }) => {
   return (
