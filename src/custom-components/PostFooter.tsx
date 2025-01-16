@@ -55,7 +55,7 @@ export const PostFooter = ({
       >
         <div className="flex gap-2">
           <IsLiked
-            token={localStorage.getItem("accessToken")}
+            token={localStorage.getItem("accessToken") ?? ""}
             likedUsers={likedUsers}
             postId={postId}
           />

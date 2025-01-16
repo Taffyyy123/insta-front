@@ -12,7 +12,7 @@ export const PostContent = ({
   postImage,
   post,
 }: {
-  postImage: string | StaticImport;
+  postImage: string | undefined;
   post: postType | undefined;
 }) => {
   return (

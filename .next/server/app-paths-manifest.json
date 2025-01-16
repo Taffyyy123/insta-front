@@ -1,14 +1,6 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/page": "app/page.js",
-  "/login/page": "app/login/page.js",
-  "/posts/[postId]/page": "app/posts/[postId]/page.js",
-  "/posts/onePost/[postId]/page": "app/posts/onePost/[postId]/page.js",
+  "/search/page": "app/search/page.js",
   "/profile/[userId]/page": "app/profile/[userId]/page.js",
   "/posts/page": "app/posts/page.js",
-  "/signup/page": "app/signup/page.js",
-  "/uploadPost/page": "app/uploadPost/page.js",
-  "/search/page": "app/search/page.js",
-  "/posts/user/[userId]/page": "app/posts/user/[userId]/page.js"
+  "/uploadPost/page": "app/uploadPost/page.js"
 }
